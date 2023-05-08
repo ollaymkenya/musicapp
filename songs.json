@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Evangeline",
+    "artist": "Stephen Sanchez",
+    "image": "assets/album-covers/evangeline.jpeg",
+    "src": "assets/music/stephen_sanchez_evangeline_official_visualizer_mp3_34635.mp3",
+    "backgroundColor": "#791f1f"
+  },
+  {
+    "name": "How many times",
+    "artist": "Dj Big N, Ayra Starr, Oxlade",
+    "image": "assets/album-covers/how-many-times.jpg",
+    "src": "assets/music/dj_big_n_ayra_starr_oxlade_how_many_times_official_music_video_mp3_34686.mp3",
+    "backgroundColor": "#b26274"
+  },
+  {
+    "name": "MCMCA",
+    "artist": "Wakadinali",
+    "image": "assets/album-covers/mcmca.jpg",
+    "src": "assets/music/wakadinali_mcmca_official_music_video_mp3_34710.mp3",
+    "backgroundColor": "#0a2d6a"
+  },
+  {
+    "name": "Until I found you",
+    "artist": "Stephen Sanchez",
+    "image": "assets/album-covers/evangeline.jpeg",
+    "src": "assets/music/stephen_sanchez_until_i_found_you_mp3_34667.mp3",
+    "backgroundColor": "#791f1f"
+  },
+  {
+    "name": "Bed(feat. Ariana Grande)",
+    "artist": "Nicki Minaj ft. Ariana Grande",
+    "image": "assets/album-covers/queen.jpg",
+    "src": "assets/music/bed_mp3_34602.mp3",
+    "backgroundColor": "#c82803"
+  }
+]

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Martian Mono', monospace;
+  color: white;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.scrolling-text {
+  position: absolute;
+  inset: 0;
+  top: auto;
+  width: 100%;
+  font-size: 60px;
+}
+
+.scrolling-text h1{
+  color: #efefef;
+  mix-blend-mode: color-burn;
+}
+
+.phone-mock-up {
+  background: url('/assets/iphone.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 700px;
+  padding-top: 17px;
+}
+
+.screen {
+  display: grid;
+  gap: 32px;
+  max-width: 307px;
+  margin: auto;
+  padding: 12px 16px;
+  border-top-left-radius: 41px;
+  border-top-right-radius: 41px;
+  transition: background 0.25s ease-in-out;
+}
+
+.top-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-area img {
+  width: 70%;
+}
+
+.player {
+  display: grid;
+  gap: 48px;
+}
+
+.player-section {
+  display: grid;
+  gap: 16px;
+}
+
+.album-art {
+  width: 100%;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.player-info {
+  display: grid;
+  gap: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#slider {
+  width: 100%;
+}
+
+.slider-durations,
+.player-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 8px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.play-pause-btn,
+.shuffle-btn,
+.repeat-btn {
+  position: relative;
+}
+
+button img {
+  width: 100%;
+}
+
+.shuffle-btn,
+.repeat-btn,
+.previous-btn,
+.next-btn {
+  width: 32px;
+  height: 32px;
+  outline: none;
+}
+
+.play-pause-btn {
+  width: 40px;
+  height: 40px;
+  outline: none;
+}
+
+.play-pause-btn img,
+.shuffle-btn img,
+.repeat-btn img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+[aria-active='play'] img:first-child,
+[aria-active='no-repeat'] img:first-child,
+[aria-active='no-shuffle'] img:first-child {
+  opacity: 1;
+}
+
+[aria-active='repeat'] img:nth-child(2) {
+  opacity: 1;
+}
+
+[aria-active='pause'] img:last-child,
+[aria-active='shuffle'] img:last-child,
+[aria-active='repeat-one'] img:last-child {
+  opacity: 1;
+}
