@@ -1,37 +1,44 @@
 [
   {
-    "name": "Evangeline",
-    "artist": "Stephen Sanchez",
-    "image": "assets/album-covers/evangeline.jpeg",
-    "src": "assets/music/stephen_sanchez_evangeline_official_visualizer_mp3_34635.mp3",
-    "backgroundColor": "#791f1f"
+    "name": "Dreamer [Rival Remix]",
+    "artist": "Alan Walker",
+    "image": "assets/album-covers/dreamer.jpg",
+    "src": "assets/music/Alan Walker - Dreamer (Rival Remix) [NCS Release].mp3",
+    "backgroundColor": "#8e7a01"
   },
   {
-    "name": "How many times",
-    "artist": "Dj Big N, Ayra Starr, Oxlade",
-    "image": "assets/album-covers/how-many-times.jpg",
-    "src": "assets/music/dj_big_n_ayra_starr_oxlade_how_many_times_official_music_video_mp3_34686.mp3",
-    "backgroundColor": "#b26274"
+    "name": "No Rival",
+    "artist": "Egzod & Maestro Chives & Alaina Cross",
+    "image": "assets/album-covers/no-rival.jpg",
+    "src": "assets/music/Egzod & Maestro Chives & Alaina Cross - No Rival [NCS Release].mp3",
+    "backgroundColor": "#4e667b"
   },
   {
-    "name": "MCMCA",
-    "artist": "Wakadinali",
-    "image": "assets/album-covers/mcmca.jpg",
-    "src": "assets/music/wakadinali_mcmca_official_music_video_mp3_34710.mp3",
-    "backgroundColor": "#0a2d6a"
+    "name": "Jim Yosef",
+    "artist": "Samurai",
+    "image": "assets/album-covers/samurai.jpg",
+    "src": "assets/music/Jim Yosef - Samurai [NCS Release].mp3",
+    "backgroundColor": "#1a0441"
   },
   {
-    "name": "Until I found you",
-    "artist": "Stephen Sanchez",
-    "image": "assets/album-covers/evangeline.jpeg",
-    "src": "assets/music/stephen_sanchez_until_i_found_you_mp3_34667.mp3",
-    "backgroundColor": "#791f1f"
+    "name": "Can't Say No",
+    "artist": "JJD",
+    "image": "assets/album-covers/cant-say-no.jpg",
+    "src": "assets/music/JJD - Can't Say No [NCS Release].mp3",
+    "backgroundColor": "#0d5b27"
   },
   {
-    "name": "Bed(feat. Ariana Grande)",
-    "artist": "Nicki Minaj ft. Ariana Grande",
-    "image": "assets/album-covers/queen.jpg",
-    "src": "assets/music/bed_mp3_34602.mp3",
-    "backgroundColor": "#c82803"
+    "name": "If I Disappear",
+    "artist": "Tobu",
+    "image": "assets/album-covers/if-i-disappear.jpg",
+    "src": "assets/music/Tobu - If I Disappear (ft. Tom Mårtensson) [NCS Release].mp3",
+    "backgroundColor": "#43331f"
+  },
+  {
+    "name": "Dreamer [NC Release]",
+    "artist": "Alan Walker",
+    "image": "assets/album-covers/dreamer.jpg",
+    "src": "assets/music/Alan Walker - Dreamer [NCS Release].mp3",
+    "backgroundColor": "#8e7a01"
   }
 ]

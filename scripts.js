@@ -22,7 +22,7 @@ var currentSongIndex = 0;
 var SONGS = [];
 var songSequence = [];
 var isPlaying = false;
-var shuffle = true;
+var shuffle = false;
 var repeat = false;
 var updateTimer;
 var requestAnimation;
@@ -32,8 +32,8 @@ fetch('./songs.json')
   .then((songs) => {
     // initialising our global variables
     SONGS = songs;
+    songSequence = Array.from(Array(SONGS.length), (num, index) => index);
 
-    shuffleSongs();
     loadSong();
 
     // add event listeners
@@ -143,6 +143,7 @@ function shuffleArray(array) {
 
 function shuffleSongs() {
   shuffle = !shuffle;
+
   songSequence = shuffle
     ? shuffleArray(songSequence)
     : Array.from(Array(SONGS.length), (num, index) => index);
@@ -206,6 +207,8 @@ function changeSongDetails() {
     ${SONGS[songSequence[currentSongIndex]].backgroundColor} 0%,
     #000000 80%
   )`;
+
+  console.log({ data: SONGS[songSequence[currentSongIndex]] });
   albumArt.src = SONGS[songSequence[currentSongIndex]].image;
 
   scrollingText.innerText = `${SONGS[songSequence[currentSongIndex]].name} - ${
