@@ -2,43 +2,43 @@
   {
     "name": "Dreamer [Rival Remix]",
     "artist": "Alan Walker",
-    "image": "assets/album-covers/dreamer.jpg",
-    "src": "assets/music/Alan Walker - Dreamer (Rival Remix) [NCS Release].mp3",
+    "image": "./assets/album-covers/dreamer.jpg",
+    "src": "./assets/music/Alan Walker - Dreamer (Rival Remix) [NCS Release].mp3",
     "backgroundColor": "#8e7a01"
   },
   {
     "name": "No Rival",
     "artist": "Egzod & Maestro Chives & Alaina Cross",
-    "image": "assets/album-covers/no-rival.jpg",
-    "src": "assets/music/Egzod & Maestro Chives & Alaina Cross - No Rival [NCS Release].mp3",
+    "image": "./assets/album-covers/no-rival.jpg",
+    "src": "./assets/music/Egzod & Maestro Chives & Alaina Cross - No Rival [NCS Release].mp3",
     "backgroundColor": "#4e667b"
   },
   {
     "name": "Jim Yosef",
     "artist": "Samurai",
-    "image": "assets/album-covers/samurai.jpg",
-    "src": "assets/music/Jim Yosef - Samurai [NCS Release].mp3",
+    "image": "./assets/album-covers/samurai.jpg",
+    "src": "./assets/music/Jim Yosef - Samurai [NCS Release].mp3",
     "backgroundColor": "#1a0441"
   },
   {
     "name": "Can't Say No",
     "artist": "JJD",
-    "image": "assets/album-covers/cant-say-no.jpg",
-    "src": "assets/music/JJD - Can't Say No [NCS Release].mp3",
+    "image": "./assets/album-covers/cant-say-no.jpg",
+    "src": "./assets/music/JJD - Can't Say No [NCS Release].mp3",
     "backgroundColor": "#0d5b27"
   },
   {
     "name": "If I Disappear",
     "artist": "Tobu",
-    "image": "assets/album-covers/if-i-disappear.jpg",
-    "src": "assets/music/Tobu - If I Disappear (ft. Tom Mårtensson) [NCS Release].mp3",
+    "image": "./assets/album-covers/if-i-disappear.jpg",
+    "src": "./assets/music/Tobu - If I Disappear (ft. Tom Mårtensson) [NCS Release].mp3",
     "backgroundColor": "#43331f"
   },
   {
     "name": "Dreamer [NC Release]",
     "artist": "Alan Walker",
-    "image": "assets/album-covers/dreamer.jpg",
-    "src": "assets/music/Alan Walker - Dreamer [NCS Release].mp3",
+    "image": "./assets/album-covers/dreamer.jpg",
+    "src": "./assets/music/Alan Walker - Dreamer [NCS Release].mp3",
     "backgroundColor": "#8e7a01"
   }
 ]
